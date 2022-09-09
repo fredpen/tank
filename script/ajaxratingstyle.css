@@ -1,0 +1,69 @@
+body {
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+}
+.starcontainer{
+-moz-opacity: 1;
+width: 100%;
+cursor: hand;
+cursor: pointer;
+}
+
+.starclass{
+cursor: pointer;
+cursor: hand;
+}
+
+.scoreinfo{
+background-color: white;
+margin-left: 8px;
+}
+
+.scoreinfoalt{
+position: absolute;
+padding: 10px 15px;
+margin-top: -15px;
+background: transparent url(http://cssdrive.com/includes/circle.gif)
+no-repeat center center
+}
+
+.scoreinfo sub{
+font-size: 100%;
+}
+
+.scoreinfoalt sub{
+font-size: 100%;
+}
+
+
+.tipmessage{
+font-style: italic;
+position: absolute;
+border: 1px solid black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+div.ratebar{
+width: 10px;
+border: 1px solid gray;
+background-color: white;
+height: 16px;
+line-height: 18px;
+float: left;
+margin-right: 2px;
+}
+
+
+div.on{
+background-color: #BB2D2D;
+}
+
+div.halfon{
+background: #BB2D2D url(../includes/whiteblock.gif) 5px 0 no-repeat;
+}
+
+#getheight {
+	height:300px
+}

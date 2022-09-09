@@ -1,0 +1,1 @@
+<input type="text" name="dob" size="18" value="<?php echo $_POST['dob_1'];?>" READONLY onclick="return show_calendar('addstudent.dob');"> <img src="cal.gif" border="0" class="imma">

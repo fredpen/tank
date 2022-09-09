@@ -1,0 +1,60 @@
+.anylinkcss{
+position:absolute;
+visibility: hidden;
+border:1px solid black;
+border-width: 0 1px;
+font:normal 12px Verdana;
+line-height: 20px;
+z-index: 100;
+background-color: white;
+width: 180px;
+top: -500px;
+}
+
+.anylinkcss a{
+width: 100%;
+color: black;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+}
+
+.anylinkcss a:hover{ /*hover background color*/
+background-color: #000;
+color: white;
+}
+//////////////////////////////////////////////////////////////
+.anylinkcssd{
+position:absolute;
+visibility: hidden;
+border:1px solid black;
+border-width: 0 1px;
+font:normal 12px Verdana;
+line-height: 20px;
+z-index: 100;
+background-color: white;
+width: 180px;
+top: -500px;
+}
+
+.anylinkcssd a{
+width: 100%;
+color: black;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+}
+
+.anylinkcssd a:hover{ /*hover background color*/
+background-color: #000000;
+color: white;
+}
+

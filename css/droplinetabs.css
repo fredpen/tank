@@ -1,0 +1,94 @@
+body {
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+
+}
+
+.droplinetabs{
+font: bold 10px Verdana;
+background: #414141; /*background of menu items (default state)*/
+width: 100%;
+}
+
+.droplinetabs ul{
+z-index:100;
+margin: 0;
+padding: 0;
+list-style-type: none;
+background: #414141; /*background of menu items (default state)*/
+}
+
+.droplinetabs ul li{
+display: inline;
+float: left;
+background: #414141; /*background of menu items (default state)*/
+}
+
+
+.droplinetabs a{
+float: left;
+color: white;
+background: #414141; /*background of menu items (default state)*/
+margin: 0 4px 0 0;
+padding: 0 0 4px 3px;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+.droplinetabs a:link, .droplinetabs a::visited, .droplinetabs a:active{
+color: white;
+}
+
+.droplinetabs a span{
+float: left;
+display: block;
+background: #414141; /*background of menu items (default state)*/
+padding: 7px 9px 3px 6px;
+cursor: pointer;
+}
+
+.droplinetabs a span{
+float: none;
+}
+
+
+.droplinetabs a:hover{
+background-color: #b05016; /*background color of tabs onMouseover*/
+color: white;
+}
+
+.droplinetabs a:hover span{
+background-color: transparent;
+}
+
+/* Sub level menus*/
+.droplinetabs ul li ul{
+position: absolute;
+z-index: 100;
+left: 0;
+top: 0;
+background: #414141; /*background of menu items (default state)*/
+visibility: hidden;
+}
+
+/* Sub level menu links style */
+.droplinetabs ul li ul li a{
+font: normal 13px Verdana;
+padding: 6px;
+padding-right: 8px;
+margin: 0;
+background: #414141; /*background of menu items (default state)*/
+}
+
+.droplinetabs ul li ul li a span{
+background: #c76023; /*sub menu background color */
+}
+
+.droplinetabs ul li ul li a:hover{ /*sub menu links' background color onMouseover. Add rounded edges in capable browsers */
+background: #714421;
+-webkit-border-radius: 5px;  
+-moz-border-radius: 5px; 
+-khtml-border-radius: 5px;  
+border-radius: 5px;
+}
