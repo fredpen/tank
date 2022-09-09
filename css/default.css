@@ -5,98 +5,103 @@ margin-right:0px;
 }*/
 
 #login {
-	text-align: center;
-	background: #e3e3e3 url(../images/whiteGradient.png) no-repeat top left;
-	border: 1px solid #CFCFCF;
-	min-height: 150px;
-	_height: 150px;
-	width: 550px;
-	position: absolute;
-	left: 650px;
-	margin-left: -352px;
-	top: 312px;
-	margin-top: -165px;
-	-moz-border-radius-bottomright: 30px;
-	-webkit-border-bottom-right-radius: 30px;
-	_height: 100%; /* IE FIX */
-	height: 250px;
-	}
+  text-align: center;
+  background: #e3e3e3 url(../images/whiteGradient.png) no-repeat top left;
+  border: 1px solid #cfcfcf;
+  min-height: 150px;
+  _height: 150px;
+  width: 550px;
+  position: absolute;
+  left: 650px;
+  margin-left: -352px;
+  top: 312px;
+  margin-top: -165px;
+  -moz-border-radius-bottomright: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  _height: 100%; /* IE FIX */
+  height: 250px;
+}
 
+h2 {
+  padding: 15px 0 15px 75px;
+  _padding-left: 38px;
+  margin-top: 25px;
+  font-size: 30px;
+  background: #bfbfbf url(../images/h2BG.png) no-repeat;
+  color: ##2f2f2f;
+  border-top: 1px solid #9f9f9f;
+  text-indent: -9999px;
+  width: 500px;
+  height: 73px;
+  position: relative;
+  left: -23px;
+}
 
-	h2 {
-padding: 15px 0 15px 75px;
-_padding-left: 38px;
-margin-top: 25px;
-font-size: 30px;
-background: #BFBFBF url(../images/h2BG.png) no-repeat;
-color: ##2F2F2F;
-border-top: 1px solid #9F9F9F;
-text-indent: -9999px;
-width: 500px;
-height: 73px;
-position: relative;
-left: -23px;
-	}
-	
-	label {
-	font-size: 13px;
-
-	}
-
-
+label {
+  font-size: 13px;
+}
 
 input#submit {
-width: 15%;
-font-size: 14px;
+  width: 15%;
+  font-size: 14px;
 }
 small {
-font-size: 14px;
-position: relative;
-top: -4px;
+  font-size: 14px;
+  position: relative;
+  top: -4px;
 }
 
 h4 {
-color: #5F5F5F;
-font-size: 20px;
+  color: #5f5f5f;
+  font-size: 20px;
 }
 
 h4.alert {
-	background-Color: #bfbfbf;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: .4em;
-	border: 1px dotted white;
-	font-size: 19px;
-	line-height: 19px;
-	position: relative;
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
+  background-color: #bfbfbf;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4em;
+  border: 1px dotted white;
+  font-size: 19px;
+  line-height: 19px;
+  position: relative;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 span.exit {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: #6361DF;
-	color: #292929;
-	font-size: 10px;
-line-height: 14px;
-	font-weight: bold;
-	padding: 0 .3em;
-	cursor: pointer;
-border-left: 1px dotted white;
-border-bottom: 1px dotted white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #6361df;
+  color: #292929;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: bold;
+  padding: 0 0.3em;
+  cursor: pointer;
+  border-left: 1px dotted white;
+  border-bottom: 1px dotted white;
 }
-#head-inner {
+/* #head-inner {
 	width:100%;
 	
 	background-repeat: repeat-x;
 	margin-left: auto;
 	margin-right: auto;
+} */
+
+#head-inner {
+  width: 100%;
+  background-repeat: repeat-x;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #03363d;
 }
+
 #head-detail {
-	width:100%;
-	background-image: url(../images/iyallasoftw.gif);
-	background-repeat: repeat-x;
+  width: 100%;
+  background-image: url(../images/iyallasoftw.gif);
+  background-repeat: repeat-x;
 }
