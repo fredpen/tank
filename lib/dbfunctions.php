@@ -776,3 +776,4 @@ function getcheckdetails($user,$password,$transtype)
 	}
 	
 } //End Class
+?>

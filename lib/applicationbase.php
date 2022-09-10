@@ -1,5 +1,5 @@
 <?php 
-	$applicationbase = "http://oldtankfarm.test/"; 
+	$applicationbase = "https://tank_farm_v1.test/"; 
 	//$applicationbase = "https://bizmaap.iyallasoft.com.ng/"; 
 	//$target_dir = $_SERVER['DOCUMENT_ROOT']."/documents/";
 	$target_dir = "documents/";
