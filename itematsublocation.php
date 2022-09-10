@@ -230,7 +230,7 @@
 						
 						if ($count_Checkitemloc == 0)
 						{
-							$sql_Insertitemloc = " insert into ItemSu ( item, loccd ) 
+							$sql_Insertitemloc = " insert into itemloc ( item, loccd ) 
 									values ('$item', '$loccd' ) ";
 									
 							$result_Insertitemloc = mysqli_query($_SESSION['db_connect'],$sql_Insertitemloc);

@@ -27,7 +27,7 @@ if(!empty($sessData['status']['msg'])){
 
 	<style>
 	body {
-	  background-image: url('images/business.jpg');
+	  background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('images/business.jpg');
 	  background-repeat: no-repeat;
 	  background-attachment: fixed; 
 	  background-size: 100% 100%;

@@ -1,11 +1,11 @@
 @font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+  font-family: Inter; 
+    src: url('../fonts/Inter/Inter.ttf'); 
+    src: local("Inter"), url('../fonts/Inter/Inter.ttf'); 
 } 
 
 html
-{ height: 100%;}
+{ height: 100%; font-family: 'Inter';}
 
 *
 { margin: 0;
