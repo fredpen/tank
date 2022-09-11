@@ -8,7 +8,7 @@
 
 table {
   border: none !important;
-  margin: 10px 0 !important;
+  margin: 10px 0;
 }
 
 #form1 h3 {
@@ -31,8 +31,9 @@ th {
 }
 
 
-input[value~="Back"] {
-  margin: 30px 0;
+input[value~="Back"] ,
+input[value~="Delete"] 
+{
   color: white !important;
   background-color: #FF6600 !important;
   border: 2px solid #FF6600 !important;

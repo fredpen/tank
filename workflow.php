@@ -93,7 +93,7 @@ $numrows = mysqli_num_rows($result);
 				Workflow
 			</strong></h3>
 
-		<table border="0" cellspacing="1" style="border:1px solid black;padding:10px;border-collapse:separate;border-radius:15px">
+		<table border="0" cellspacing="1" style="border:1px solid black;padding:10px;border-collapse:separate;border-radius:15px;margin:0">
 
 
 			<tr class="back_image">

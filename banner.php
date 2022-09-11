@@ -28,7 +28,7 @@ $dbobject = new dbfunction();
 <?php include "workflowstatus.php"; ?>
 
 <div id="head-inner" align="center" style="background-color:white; width:100vw">
-	<table width="80%" border="0" cellspacing="0" cellpadding="0">
+	<table width="80%" border="0" cellspacing="0" cellpadding="0" style="margin: 0;">
 		<tr>
 			<td align="left" nowrap="nowrap" class="userdata"><b>Welcome: </b><?php echo trim($_SESSION['username']); ?></td>
 			<td align="center"> <b>Role : </b><?php echo trim($_SESSION['role_id_sess']); ?> </td>
