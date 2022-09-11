@@ -20,8 +20,8 @@ body {
   position: relative;
   height: auto;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
 }
@@ -39,51 +39,59 @@ body {
   border-top-right-radius: 0;
 }
 
-header, #banner, #menubar, #site_content1, #site_content, footer, #content_grey, nav
-{ margin-left: auto; 
-  margin-right: auto;}
+header,
+#banner,
+#menubar,
+#site_content1,
+#site_content,
+footer,
+#content_grey,
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-#banner
-{ width: 580px;
+#banner {
+  width: 580px;
   position: relative;
   padding: 15px 0 0 0;
-  background: #9ACD32;}
- 
-#myradio 
-{ 
-  background-color:white;
-  color:olive;
+  background: #9acd32;
+}
+
+#myradio {
+  background-color: white;
+  color: olive;
   font-weight: bold;
-  }
-  
-  #welcome
-{ 
+}
+
+#welcome {
   float: center;
   height: 50px;
   margin: 0 auto;
   text-align: center;
   padding: 0 0 10px 20px;
-  background: transparent;}   
-  
-  
-#welcome_slogan
-{ 
+  background: transparent;
+}
+
+#welcome_slogan {
   float: center;
   height: 50px;
   margin: 0 auto;
-  text-align: center;  
+  text-align: center;
   padding-left: 20px;
-  background: transparent;}   
-   
-#welcome H3
-{ font: normal 300% 'News Cycle', Arial, sans-serif;
+  background: transparent;
+}
+
+#welcome H3 {
+  font: normal 300% "News Cycle", Arial, sans-serif;
   letter-spacing: -3px;
   text-shadow: 1px 1px #000;
-  color: #FFF;}
+  color: #fff;
+}
 
-#welcome_slogan H3
-{ font: normal 200% 'News Cycle', Arial, sans-serif;
+#welcome_slogan H3 {
+  font: normal 200% "News Cycle", Arial, sans-serif;
   letter-spacing: -2px;
   text-shadow: 1px 1px #000;
-  color: #FFF;}  
- 
+  color: #fff;
+}

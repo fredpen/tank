@@ -31,7 +31,7 @@
 	ul {
 		list-style: none;
 		padding: 0;
-		margin: 0!important;
+		margin: 0 !important;
 	}
 
 	.nav {
@@ -49,7 +49,7 @@
 	}
 
 	.nav_item:hover {
-		background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5));	
+		background-image: linear-gradient(to right, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5));
 	}
 
 	.nav_item>a {
@@ -57,31 +57,35 @@
 		color: #fff;
 	}
 
-	.nav_item > ul {
+	.nav_item>ul {
 		display: none;
 		position: absolute;
-		top: 15px;
-		left:95px;
+		top: 0px;
+		left: 109px;
 		background: #fff;
 		padding: 20px;
-		width: 220px;
+		width: 180px;
 		height: 100vh;
 		z-index: 20;
 	}
-	.nav_item > ul > li {
+
+	.nav_item>ul>li {
 		padding: 10px 0;
 	}
-	.nav_item > ul > li > a {
+
+	.nav_item>ul>li>a {
 		color: #ABB1B7;
 		font-size: 15px;
 		text-decoration: none;
 	}
 
-	.nav_item:hover > ul{
+	.nav_item:hover>ul {
 		display: block;
 	}
 </style>
 <!-- <div id="smoothmenu1" class="ddsmoothmenu"> -->
+
+
 <div class="nav">
 	<ul>
 		<?php
@@ -144,7 +148,7 @@
 			echo "</li>";
 		} // End of Outer for Loop
 		?>
-</div>
-<input type="hidden" id="eodst" name="eodst" value="0" />
-<br style="clear: left" />
+		<!-- </div> -->
+		<input type="hidden" id="eodst" name="eodst" value="0" />
+		<!-- <br style="clear: left" />-->
 </div>
