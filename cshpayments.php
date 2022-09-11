@@ -22,7 +22,7 @@ include_once "session_track.php";
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<form action="" method="get" id="form1">
 		<h3><strong>
-				<font size='10'>Cash Receipts </font>
+				Cash Receipts
 			</strong></h3>
 		<?php
 		if ($_SESSION['payments'] == 1) {

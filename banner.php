@@ -48,7 +48,6 @@ $dbobject = new dbfunction();
 						echo 'Product Transfer';
 				}
 				?>
-
 			</td>
 
 			<?php if ($count_workflow == 0) { ?>

@@ -233,36 +233,19 @@ table.sortable thead {
 img {
   border: 0px;
 }
-thead td {
-  /*
-		font-weight:bold;
-		color:#000;
-		background-color:#E2EBED;
-		*/
-}
+
 td {
-  padding: 2px;
+  padding: 4px;
   color: #03363d;
+  font-size: 12px;
+  border: none;
 }
 
-table {
-  /*
-		border:1px solid #000;
-		border-collapse: collapse;
-		*/
-}
 h1 {
   font-size: 1.3em;
   margin-bottom: 0px;
 }
-table,
-h1,
-p,
-#ads {
-  /*
-		margin-left:10px;
-		*/
-}
+
 #ads {
   margin-top: 20px;
 }
@@ -363,10 +346,10 @@ p,
   height: 26px;
   padding: 2px 0 3px 0;
   cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;

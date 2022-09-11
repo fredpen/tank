@@ -98,6 +98,10 @@ $s = $all[2];
 	<link rel="stylesheet" type="text/css" href="script/anylink.css">
 	<link type="text/css" href="jquery-ui-1.7.2/development-bundle/demos/demos.css" rel="stylesheet" />
 
+
+	<!-- revamp css -->
+	<link type="text/css" href="css/revamp.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -115,7 +119,7 @@ $s = $all[2];
 			<?php include "menu.php"; ?>
 		</div>
 
-		<div class="col-sm-10">
+		<div class="col-sm-10" class="page-body" style="margin-top: 50px;">
 			<div id="page" class="d-flex" align="center" style="justify-content: center;">
 				<!-- the div houses all content -->
 				<div>

@@ -1,82 +1,101 @@
-<?php 
-	ob_start();
-	include_once "session_track.php";
-	
-	include "printheader.php";
+<?php
+ob_start();
+include_once "session_track.php";
+
+include "printheader.php";
 ?>
 
 <style>
 	table {
-		  border-collapse: collapse;
-		}
-	@media screen {
-			td {padding:5px;}
-			.tableb {border-radius: 15px 50px; border-collapse: separate;border : 5px solid olive;}
-			
-			#print_table {
-				display:none;
-			}
+		border-collapse: collapse;
 	}
-	
-	@media print{
-			#print, #head-inner,#smoothmenu1, .tableb, .noprint, .PrintButton{
-				display:none;
-			}
-			#print_table {
-				display:block;
-			}
-		
-			
+
+	@media screen {
+		td {
+			padding: 5px;
 		}
+
+		.tableb {
+			border-radius: 15px 50px;
+			border-collapse: separate;
+			border: 5px solid olive;
+		}
+
+		#print_table {
+			display: none;
+		}
+	}
+
+	@media print {
+
+		#print,
+		#head-inner,
+		#smoothmenu1,
+		.tableb,
+		.noprint,
+		.PrintButton {
+			display: none;
+		}
+
+		#print_table {
+			display: block;
+		}
+
+
+	}
 </style>
-<div align ="center" id="data-form" > 
+<div align="center" id="data-form">
 
-	<?php 
-		
+	<?php
 
-		include "basicparameters.php";	
-		
-		$datefield = " ";
-		$custnofield = "";
-		$salespsnfield = "";
-		$itemfield ="";
-		$loccdfield = "";
-		$vendornofield ="";
-		$po_field ="";
-		
 
-		//$additionalwhereclause = $dbobject->docase($startdate,$enddate,$custno,$salespsn,$item,$loccd,$vendorno,$purchaseorderno,
-		//			$datefield,$custnofield,$salespsnfield,$itemfield,$loccdfield,$vendornofield,$po_field);
-	
-		//$holdadditionalwhereclause = $additionalwhereclause <> ""?" and " . $additionalwhereclause :"";
-		
-	
-			$query = "SELECT  * FROM bank ORDER BY bank_name ";
-			
-			//echo $query;
-			$result = mysqli_query($_SESSION['db_connect'],$query);
-			$numrows = mysqli_num_rows($result);
-			
-			
+	include "basicparameters.php";
 
-		?>		
-		
-	
+	$datefield = " ";
+	$custnofield = "";
+	$salespsnfield = "";
+	$itemfield = "";
+	$loccdfield = "";
+	$vendornofield = "";
+	$po_field = "";
+
+
+	//$additionalwhereclause = $dbobject->docase($startdate,$enddate,$custno,$salespsn,$item,$loccd,$vendorno,$purchaseorderno,
+	//			$datefield,$custnofield,$salespsnfield,$itemfield,$loccdfield,$vendornofield,$po_field);
+
+	//$holdadditionalwhereclause = $additionalwhereclause <> ""?" and " . $additionalwhereclause :"";
+
+
+	$query = "SELECT  * FROM bank ORDER BY bank_name ";
+
+	//echo $query;
+	$result = mysqli_query($_SESSION['db_connect'], $query);
+	$numrows = mysqli_num_rows($result);
+
+
+
+	?>
+
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/tablehighlight.js"></script>
 	<form name="form1" id="form1" method="post" action="">
-		
-		<a href="#" class="noprint" onclick="window.close();return false"><h3>Close Window</h3></a>
-		 
+
+		<a href="#" class="noprint" onclick="window.close();return false">
+			<h3>Close Window</h3>
+		</a>
+
 		<div id="print_table">
-		<p ><h3><strong><font size='12'>Banks </font></strong></h3></p>
-		<table >
-		
-			<tr>
-				<td  align="center">
-					
-					
-						<table  border="0" cellpadding="5" cellspacing="1" class="menu_backcolor" id="userlistTable">
+			<p>
+			<h3><strong>Banks </strong></h3>
+			</p>
+			<table>
+
+				<tr>
+					<td align="center">
+
+
+						<table border="0" cellpadding="5" cellspacing="1" class="menu_backcolor" id="userlistTable">
 							<thead>
 								<tr class="right_backcolor">
 									<th nowrap="nowrap" class="Corner">&nbsp;</th>
@@ -87,40 +106,39 @@
 									<th nowrap="nowrap">&nbsp;</th>
 								</tr>
 							</thead>
-							<?php 
-								
-								$k = 0;
-			  
-								while($k<  $numrows) 
-								{
-									$k++;
-									//for($i=0; $i<$numrows; $i++){
-									$row = mysqli_fetch_array($result);
-									//while($i < $skip) continue;
-									//echo 'count '.$i.'   '.$skip;	
+							<?php
+
+							$k = 0;
+
+							while ($k <  $numrows) {
+								$k++;
+								//for($i=0; $i<$numrows; $i++){
+								$row = mysqli_fetch_array($result);
+								//while($i < $skip) continue;
+								//echo 'count '.$i.'   '.$skip;	
 								//}
 							?>
-							
-									<tr <?php echo ($k%2==0)?"class='treven'":"class='trodd'"; ?> >
-										<td nowrap="nowrap">&nbsp;</td>
-										<td nowrap="nowrap"><?php echo $k;?></td>
-										<td nowrap="nowrap"><?php echo $row['bank_code'];?></td>
-										<td nowrap="nowrap"><?php echo $row["bank_name"];?></td>
-										<td nowrap="nowrap" align="right"><?php echo number_format($row["bankbal"],2);?></td>
-										<td nowrap="nowrap"></td>
-									</tr>
-							<?php 
-									//} //End For Loop
-								} //End If Result Test	
+
+								<tr <?php echo ($k % 2 == 0) ? "class='treven'" : "class='trodd'"; ?>>
+									<td nowrap="nowrap">&nbsp;</td>
+									<td nowrap="nowrap"><?php echo $k; ?></td>
+									<td nowrap="nowrap"><?php echo $row['bank_code']; ?></td>
+									<td nowrap="nowrap"><?php echo $row["bank_name"]; ?></td>
+									<td nowrap="nowrap" align="right"><?php echo number_format($row["bankbal"], 2); ?></td>
+									<td nowrap="nowrap"></td>
+								</tr>
+							<?php
+								//} //End For Loop
+							} //End If Result Test	
 							?>
 						</table>
-					
-				</td>
-			</tr>
-			
+
+					</td>
+				</tr>
+
 			</table>
-			</div>
-			
+		</div>
+
 	</form>
 </div>
 
@@ -128,6 +146,7 @@
 	function PrintPage() {
 		window.print();
 	}
-	document.addEventListener("DOMContentLoaded",function(){PrintPage();});
-		
+	document.addEventListener("DOMContentLoaded", function() {
+		PrintPage();
+	});
 </script>

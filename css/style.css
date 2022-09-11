@@ -43,7 +43,7 @@ h4,
 h5,
 h6 {
   font: bold 175% "Inter", sans-serif;
-  color: #0043a8;
+  color: #07363d;
   text-shadow: 1px 1px #fff;
   letter-spacing: -1px;
   margin: 0 0 10px 0;
@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   font: bold 130% "Inter", Arial, sans-serif;
-  color: #0043a8;
+  color: #07363d;
 }
 
 h4,
@@ -76,7 +76,7 @@ h6 {
 }
 
 span {
-  color: #0043a8;
+  color: #07363d;
   float: left;
   width: 280px;
   text-align: left;
@@ -146,11 +146,11 @@ nav {
   height: 50px;
   text-align: center;
   margin-top: -25px;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
-  border: 1px solid #0043a8;
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
+  border: 1px solid #07363d;
 }
 
 #welcome {
@@ -264,7 +264,7 @@ ul#nav li:hover a {
   font: bold 150% "Inter", Arial, sans-serif;
   height: 30px;
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
 }
 
 .sidebar h3 {
@@ -310,14 +310,14 @@ footer {
   font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   background: #fff;
 }
 
 footer a,
 footer a:hover {
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   text-decoration: none;
   padding-bottom: 20px;
 }
@@ -329,7 +329,7 @@ footer a:hover {
 footer a,
 footer a:hover {
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   text-decoration: none;
 }
 
@@ -348,10 +348,10 @@ footer a:hover {
   width: 80px;
   padding: 5px 2px 7px 2px;
   border: 1px solid #fff;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -409,10 +409,10 @@ footer a:hover {
   height: 26px;
   padding: 2px 0 3px 0;
   cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -547,10 +547,10 @@ ul img {
   height: 26px;
   padding: 2px 0 3px 0;
   cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -597,13 +597,10 @@ ul img {
 
 #data-form {
   background-color: #f2f7f9;
-  max-width: 800px;
+  max-width: 900px;
   padding: 30px;
   margin: 10px auto;
-  border: 1px solid #03363d;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  border: 0.6px solid #d9e1e2;
   position: relative;
 }
 
@@ -706,26 +703,16 @@ ul img {
 #data-form_rptheader #submit-button,
 #data-form_report #submit-button,
 #data-form_report_wider #submit-button {
-  font: 100% arial;
-  border: 1px solid;
-  width: 100px;
-  height: 26px;
-  padding: 2px 0 3px 0;
-  cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border: 15px 15px 15px 15px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  color: #fff;
-  float: right;
-  margin-bottom: 0px;
-  margin-right: 6px;
+    height: 30px;
+    min-width: 110px;
+    padding: 5px;
+    cursor: pointer;
+    background: #07363d;
+    color: #fff;
+    float: right;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    letter-spacing: 1.2px;
 }
 
 #data-form #submit-button:hover {
@@ -832,50 +819,49 @@ textarea.placeholder-text {
   font-style: italic;
 }
 
-
-input[type="text"], select {
-    padding: 7px !important;
-    border: 1px solid #c6bfbf;
-    border-radius: 4px;
+input[type="text"],
+input[type="number"],
+input[type="salespsnemail"],
+input[type="tel"],
+select {
+  padding: 7px !important;
+  border: 1px solid #c6bfbf;
+  border-radius: 4px;
 }
 
 select {
-    background: white;
+  background: white;
 }
 #display ul li:first-child {
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    margin-top: 8px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  margin-top: 8px;
 }
 #display ul li {
-    position: relative;
-    display: block;
-    padding: .75rem 1.25rem;
-    margin-bottom: -1px;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    cursor: pointer;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
 }
 
 #display ul li a {
-    color : rgb(35, 35, 36);
-    text-decoration: none;
+  color: rgb(35, 35, 36);
+  text-decoration: none;
 }
 
 #display ul li:hover {
-    background-color: #2596be;
-    color: white;
+  background-color: #2596be;
+  color: white;
 }
 
 #display ul li:hover a {
-    color: white;
+  color: white;
 }
 
 #display {
-    max-height: 13.1em;
-    overflow: auto;
+  max-height: 13.1em;
+  overflow: auto;
 }
-
- 
- 
-

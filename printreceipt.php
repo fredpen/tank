@@ -188,7 +188,7 @@ $s = $all[2];
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 	<form action="" method="get" id="form1">
 		<h3 class="noprint"><strong>
-				<font size='12'>Print Receipt </font>
+				Print Receipt
 			</strong></h3>
 		<a href="#" class="noprint" onclick="window.close();return false">Close Window</a>
 

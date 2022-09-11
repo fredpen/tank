@@ -221,7 +221,7 @@ Calendar.prototype.show = function() {
 	vCode = this.getMonthlyCalendarCode();
 	this.wwrite(vCode);
 
-	this.wwrite("</font></body></html>");
+	this.wwrite("</body></html>");
 	this.gWinCal.document.close();
 }
 
@@ -302,7 +302,7 @@ Calendar.prototype.showY = function() {
 			this.wwrite("</LAYER>");
 	}
 
-	this.wwrite("</font><BR></body></html>");
+	this.wwrite("<BR></body></html>");
 	this.gWinCal.document.close();
 }
 

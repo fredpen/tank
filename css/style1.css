@@ -50,7 +50,7 @@ h4,
 h5,
 h6 {
   font: bold 175% "News Cycle", Arial, sans-serif;
-  color: #0043a8;
+  color: #07363d;
   text-shadow: 1px 1px #fff;
   letter-spacing: -1px;
   margin: 0 0 10px 0;
@@ -62,7 +62,7 @@ h2 {
 
 h3 {
   font: bold 130% "News Cycle", Arial, sans-serif;
-  color: #0043a8;
+  color: #07363d;
 }
 
 h4,
@@ -83,7 +83,7 @@ h6 {
 }
 
 span {
-  color: #0043a8;
+  color: #07363d;
   float: left;
   width: 280px;
   text-align: left;
@@ -164,11 +164,11 @@ nav {
   height: 50px;
   text-align: center;
   margin-top: -25px;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
-  border: 1px solid #0043a8;
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
+  border: 1px solid #07363d;
 }
 
 #welcome {
@@ -282,7 +282,7 @@ ul#nav li:hover a {
   font: bold 150% "News Cycle", Arial, sans-serif;
   height: 30px;
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
 }
 
 .sidebar h3 {
@@ -328,14 +328,14 @@ footer {
   font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   background: #fff;
 }
 
 footer a,
 footer a:hover {
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   text-decoration: none;
   padding-bottom: 20px;
 }
@@ -347,7 +347,7 @@ footer a:hover {
 footer a,
 footer a:hover {
   text-shadow: 1px 1px #fff;
-  color: #0043a8;
+  color: #07363d;
   text-decoration: none;
 }
 
@@ -366,10 +366,10 @@ footer a:hover {
   width: 80px;
   padding: 5px 2px 7px 2px;
   border: 1px solid #fff;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -427,10 +427,10 @@ footer a:hover {
   height: 26px;
   padding: 2px 0 3px 0;
   cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -565,10 +565,10 @@ ul img {
   height: 26px;
   padding: 2px 0 3px 0;
   cursor: pointer;
-  background: #0043a8;
-  background: -moz-linear-gradient(#43a9ff, #0043a8);
-  background: -o-linear-gradient(#43a9ff, #0043a8);
-  background: -webkit-linear-gradient(#43a9ff, #0043a8);
+  background: #07363d;
+  background: -moz-linear-gradient(#43a9ff, #07363d);
+  background: -o-linear-gradient(#43a9ff, #07363d);
+  background: -webkit-linear-gradient(#43a9ff, #07363d);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;

@@ -16,7 +16,7 @@ include_once "session_track.php";
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<form action="" method="get" id="form1">
 		<h3><strong>
-				<font size='12'>Users </font>
+				Users
 			</strong></h3>
 		<?php
 		include("lib/dbfunctions.php");
@@ -429,7 +429,7 @@ include_once "session_track.php";
 
 			<tr>
 				<td align="center" colspan="4">
-					<table border="0" cellspacing="5" style="outline-style: double;">
+					<table border="0" cellspacing="5">
 						<tr>
 							<td><input type="checkbox" id="createpo" <?php if ($createpo == 1) {
 																			echo 'checked';
