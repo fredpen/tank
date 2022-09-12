@@ -140,6 +140,7 @@ table.sortable thead {
   font-family: "Lucida Grande", "Trebuchet MS", " Verdana", Helvetica,
     sans-serif;
   color: #ff0000;
+  text-align: center;
 }
 
 #licence {
