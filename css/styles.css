@@ -5,9 +5,10 @@ body {
 }
 
 .form-signin {
-  max-width: 330px;
-  padding: 15px;
+  max-width: 530px;
+  padding: 25px;
   margin: 0 auto;
+  background: #FFFFFF;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
@@ -39,6 +40,28 @@ body {
   border-top-right-radius: 0;
 }
 
+#logindiv > div > label{
+  display: flex;
+  font-weight: 400;
+}
+
+#logindiv > p{
+  color: #03363D;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.signin_button{
+  background-color: #FF6600;
+  padding:15px 0;
+  margin:12px 0;
+  border:none;
+  color:#fff;
+  border-radius: 3px;
+  width:100%;
+}
 header,
 #banner,
 #menubar,

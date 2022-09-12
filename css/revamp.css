@@ -30,22 +30,28 @@ th {
   letter-spacing: 1.2px;
 }
 
-
-input[value~="Back"] ,
-input[value~="Delete"] 
-{
+input[value~="Back"],
+input[value~="Delete"] {
   color: white !important;
-  background-color: #FF6600 !important;
-  border: 2px solid #FF6600 !important;
+  background-color: #ff6600 !important;
+  border: 2px solid #ff6600 !important;
 }
 
 input[value~="Back"]:hover,
 input[value~="Back"]:focus,
 input[value~="Back"]:active {
-    color: #FF6600 !important;
+  color: #ff6600 !important;
   background-color: white !important;
-
 }
+
+#logindiv > div > label,
+label {
+  display: flex;
+  font-weight: 400;
+  letter-spacing: 1;
+  color: #124348;
+}
+
 
 
 /*Button Hover Styles by Okerefe*/
@@ -137,3 +143,4 @@ input[value~="X"]:active {
   color: white !important;
   background: red !important;
 }
+
