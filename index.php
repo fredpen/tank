@@ -81,14 +81,10 @@ if (!empty($sessData['status']['msg'])) {
 	<br /> -->
 
 	<div id="indexdiv">
-	<br /><br /><br />
+	<br />
 		<form id="form1" name="form1" class="form-signin" method="POST" action="">
 			<br /><br />
-			<!--	<h2 class="form-signin-heading">Please Login</h2>-->
-
 			<?php echo !empty($statusMsg) ? '<p class="' . $statusMsgType . '">' . $statusMsg . '</p>' : ''; ?>
-
-
 			<div id="logindiv">
 				<p>Sign in to APP Tank Farm</p>
 				<br /><br />
@@ -123,7 +119,7 @@ if (!empty($sessData['status']['msg'])) {
 			
 		</form>
 
-		<br /><br /><br /><br /><br />
+		<br /><br />
 	</div>
 
 </body>
