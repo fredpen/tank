@@ -127,7 +127,9 @@ input[value~="X"]  {
   border-radius: 2px !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
-  font-size: 16px !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: bolder;
 }
 input[value~="X"]:hover,
 input[value~="X"]:focus,
