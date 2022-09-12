@@ -4,10 +4,10 @@ $db_server = 'localhost';
 
 //$db_name = 'bizmaaponline';
 //$db_name = 'bizmaap';
-$db_name = 'tank_farm';
+$db_name = 'tankfarm';
 
 $db_user = 'root';
-$db_password = 'password';
+$db_password = '';
 
 
 
