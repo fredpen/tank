@@ -46,3 +46,92 @@ input[value~="Back"]:active {
   background-color: white !important;
 
 }
+
+
+/*Button Hover Styles by Okerefe*/
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active{
+  color: #07363d !important;
+  background: #fff !important;
+}
+
+td[nowrap="nowrap"] > a {
+  color: #03363d;
+}
+
+tr[class="treven"]:hover,
+tr[class="trodd"]:hover {
+  color: white !important;
+  background: #03363d !important;
+}
+
+input[value~="Close"] ,
+input[value~="close"] {
+  color: white !important;
+  background-color: #FF6600 !important;
+  border: 2px solid #FF6600 !important;
+}
+
+
+input[value~="Close"]:hover,
+input[value~="close"]:hover,
+input[value~="Close"]:focus,
+input[value~="close"]:focus,
+input[value~="Close"]:active,
+input[value~="close"]:active {
+  color: #FF6600 !important;
+  background-color: white !important;
+
+}
+
+.tableRollOverEffect1 {
+  background-color: #317082;
+  color: #fff !important;
+  cursor: pointer;
+}
+.tableRollOverEffect1 td, .tableRollOverEffect1 a {
+  background-color: #317082;
+  color: #fff !important;
+}
+
+.tableRollOverEffect2 {
+  background-color:  #317082;
+  color: #fff !important;
+}
+.close-x {
+  height: 30px;
+  min-width: 110px;
+  padding: 5px;
+  cursor: pointer;
+  /*background: #07363d;*/
+  /*background-color: rgb(7, 54, 61);*/
+  color: #fff;
+  float: right;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  letter-spacing: 1.2px;
+}
+input[value~="X"]  {
+  height: 30px !important;
+  min-width: 0 !important;
+  padding: 7px !important;
+  cursor: pointer !important;
+  background: white !important;
+  color: red !important;
+  float: right !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  letter-spacing: 1.2px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 16px !important;
+}
+input[value~="X"]:hover,
+input[value~="X"]:focus,
+input[value~="X"]:active {
+  color: white !important;
+  background: red !important;
+}

@@ -5,7 +5,8 @@ include_once "session_track.php";
 
 
 <div align="center" id="data-form_rptheader">
-	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form_rptheader').hide();">
+	<input type="button" name="closebutton" id="submit-button" title="Close" value="X" onclick="javascript:  $('#data-form_rptheader').hide();">
+<!--	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form_rptheader').hide();">-->
 
 	<?php
 	require_once("lib/mfbconnect.php");
