@@ -25,32 +25,31 @@ if (!empty($sessData['status']['msg'])) {
 
 	<style>
 		body {
-			background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('images/business.jpg');
+			/* background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('images/business.jpg'); */
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-size: 100% 100%;
 		}
 
 		#indexdiv {
-			background-image: url('images/bizmaap.png');
+			/* background-image: url('images/bizmaap.png'); */
 			background-repeat: no-repeat;
 			background-size: auto auto;
-			position: relative;
+			/* position: relative;
 			margin-left: 31%;
-			margin-right: 31%;
+			margin-right: 31%; */
 		}
 
 		#logindiv {
-			position: relative;
-			margin-left: 15%;
-			margin-right: 15%;
+			width: 80%;
+			margin: 0 auto;
 		}
 
 		#formid {
 			width: 580px;
 			position: relative;
 			padding: 15px 0 0 0;
-			background: #9ACD32;
+			background: red;
 		}
 	</style>
 
@@ -61,7 +60,7 @@ if (!empty($sessData['status']['msg'])) {
 	<?php
 	//include("commonheader.html") ;
 	?>
-	<div align="center">
+	<!-- <div align="center">
 
 		<table id="myradio">
 			<tr>
@@ -79,43 +78,48 @@ if (!empty($sessData['status']['msg'])) {
 			</tr>
 		</table>
 	</div>
+	<br /> -->
+
+	<div id="indexdiv">
 	<br />
-
-	<div id="indexdiv" align="center">
-
 		<form id="form1" name="form1" class="form-signin" method="POST" action="">
-			<br /><br /><br /><br /><br /><br />
-			<!--	<h2 class="form-signin-heading">Please Login</h2>-->
-
+			<br /><br />
 			<?php echo !empty($statusMsg) ? '<p class="' . $statusMsgType . '">' . $statusMsg . '</p>' : ''; ?>
-
-
 			<div id="logindiv">
-				<div class="input-group">
-					<span class="input-group-addon" id="basic-addon1">@</span>
+				<p>Sign in to APP Tank Farm</p>
+				<br /><br />
+				<span id="error_label_login" style="color:red;font-weight: bold;display:flex; align-items:center;"></span>
+				<div class="">
+					<label>USER ID</label>
 					<input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
 				</div>
 				<br />
-				<label for="inputPassword" class="sr-only">Password</label>
-				<input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
-
+				<div>
+					<label>Password</label>
+					<input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+				</div>
+				<br />
+				<div>
+					<p>Please! Select a Channel</p>
+					<div style="display:flex;align-items:flex-start;">
+					<input type="radio" name="trantype" id="cashmodule" value="1" checked>&nbsp;<label for="cashmodule" style="font-weight:400;">Cash</label> &nbsp; &nbsp;
+					<input type="radio" name="trantype" id="creditmodule" value="2">&nbsp;<label for="creditmodule" style="font-weight:400;">Credit</label> &nbsp; &nbsp;
+					<input type="radio" name="trantype" id="ownusemodule" value="3">&nbsp;<label for="ownusemodule" style="font-weight:400;">Own Use</label>&nbsp; &nbsp;
+					<input type="radio" name="trantype" id="ptnmodule" value="4">&nbsp;<label for="ptnmodule" style="font-weight:400;">Product Transfer</label>
+					</div>
+				</div>
 				<!--	<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>-->
-				<input name="Button" type="image" value="Button" src="images/button.jpg" onclick="javascript: return checklogin('mainmenu.php');" />
+				<button type="submit" class="signin_button" onclick="javascript: return checklogin('mainmenu.php');">
+					Sign in
+				</button>
 			</div>
-			<br /><br /><br /><br />
+			<br />
 
-			<table>
-				<tr>
-					<td nowrap="nowrap"><a href="forgotpassword.php">Forgot password?</a> </td>
-					<td nowrap="nowrap"><a href="https://.com.ng"> &nbsp;&nbsp;&nbsp;Powered by </a> </td>
-				</tr>
-
-			</table>
-			<span id="error_label_login" style="color:red;font-weight: bold;"></span>
-
+			<p nowrap="nowrap" style="text-align: center;"><a href="forgotpassword.php">Forgot password?</a> </p>
+			
 		</form>
 
-		<br /><br /><br /><br /><br />
+		<br /><br />
 	</div>
 
 </body>
