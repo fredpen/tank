@@ -81,33 +81,41 @@ if (!empty($sessData['status']['msg'])) {
 	<br /> -->
 
 	<div id="indexdiv">
-	<br />
+		<br />
 		<form id="form1" name="form1" class="form-signin" method="POST" action="">
-			<br /><br />
+			<div style="display:flex; justify-content: center;margin:15px 0;">
+				<img src="./images/logo copy.png" />
+			</div>
+
 			<?php echo !empty($statusMsg) ? '<p class="' . $statusMsgType . '">' . $statusMsg . '</p>' : ''; ?>
 			<div id="logindiv">
-				<p>Sign in to APP Tank Farm</p>
+				<p>Sign in to get started</p>
 				<br /><br />
-				<span id="error_label_login" style="color:red;font-weight: bold;display:flex; align-items:center;"></span>
+
+				<!-- error box -->
+				<span id="error_label_login" style="color:red;font-weight: bold;display:flex; justify-content:center;padding: 20px 0;letter-spacing: 1.1px;"></span>
+
+				<div>
+					<p style="text-align: center;">Select a Channel</p>
+					<div style="display:flex;align-items:flex-start;">
+						<input type="radio" name="trantype" id="cashmodule" value="1" checked>&nbsp;<label for="cashmodule" style="font-weight:400;">Cash</label> &nbsp; &nbsp;
+						<input type="radio" name="trantype" id="creditmodule" value="2">&nbsp;<label for="creditmodule" style="font-weight:400;">Credit</label> &nbsp; &nbsp;
+						<input type="radio" name="trantype" id="ownusemodule" value="3">&nbsp;<label for="ownusemodule" style="font-weight:400;">Own Use</label>&nbsp; &nbsp;
+						<input type="radio" name="trantype" id="ptnmodule" value="4">&nbsp;<label for="ptnmodule" style="font-weight:400;">Product Transfer</label>
+					</div>
+				</div>
+				<br />
 				<div class="">
-					<label>USER ID</label>
-					<input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+					<label>Username</label>
+					<input type="text" name="username" id="username" class="form-control" placeholder="John Dow" required>
 				</div>
 				<br />
 				<div>
 					<label>Password</label>
-					<input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+					<input type="password" name="password" id="inputPassword" class="form-control" placeholder="John password" required>
 				</div>
 				<br />
-				<div>
-					<p>Please! Select a Channel</p>
-					<div style="display:flex;align-items:flex-start;">
-					<input type="radio" name="trantype" id="cashmodule" value="1" checked>&nbsp;<label for="cashmodule" style="font-weight:400;">Cash</label> &nbsp; &nbsp;
-					<input type="radio" name="trantype" id="creditmodule" value="2">&nbsp;<label for="creditmodule" style="font-weight:400;">Credit</label> &nbsp; &nbsp;
-					<input type="radio" name="trantype" id="ownusemodule" value="3">&nbsp;<label for="ownusemodule" style="font-weight:400;">Own Use</label>&nbsp; &nbsp;
-					<input type="radio" name="trantype" id="ptnmodule" value="4">&nbsp;<label for="ptnmodule" style="font-weight:400;">Product Transfer</label>
-					</div>
-				</div>
+
 				<!--	<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>-->
 				<button type="submit" class="signin_button" onclick="javascript: return checklogin('mainmenu.php');">
 					Sign in
@@ -116,7 +124,7 @@ if (!empty($sessData['status']['msg'])) {
 			<br />
 
 			<p nowrap="nowrap" style="text-align: center;"><a href="forgotpassword.php">Forgot password?</a> </p>
-			
+
 		</form>
 
 		<br /><br />
