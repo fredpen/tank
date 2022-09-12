@@ -11,7 +11,8 @@ include_once "session_track.php";
 
 <script type="text/javascript" src="js/dynamic_search.js"></script>
 <div align="center" id="data-form">
-	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form').hide();">
+	<input type="button" name="closebutton" id="submit-button" title="Close" value="X" onclick="javascript:  $('#data-form').hide();">
+<!--	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form').hide();">-->
 
 	<?php
 	require_once("lib/mfbconnect.php");

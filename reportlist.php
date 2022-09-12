@@ -109,7 +109,9 @@ $numrows = mysqli_num_rows($result);
 <input type='hidden' name='reportgrp' id='reportgrp' value="<?php echo $reportgrp; ?>">
 
 <div align="center" id="data-form">
-	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form').hide();">
+<!--    <span class="close-x">X</span>-->
+    	<input type="button" name="closebutton" id="submit-button" title="Close" value="X" onclick="javascript:  $('#data-form').hide();">
+<!--    	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form').hide();">-->
 	<form>
 		<h3><strong>
 				Reports List

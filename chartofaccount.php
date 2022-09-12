@@ -11,7 +11,8 @@ include_once "session_track.php";
 
 <script type="text/javascript" src="js/dynamic_search_script.js"></script>
 <div align="center" id="data-form_rptheader">
-	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form_rptheader').hide();">
+	<input type="button" name="closebutton" id="submit-button" title="Close" value="X" onclick="javascript:  $('#data-form_rptheader').hide();">
+<!--	<input type="button" name="closebutton" id="submit-button" title="Close" value="Close" onclick="javascript:  $('#data-form_rptheader').hide();">-->
 
 	<?php
 
